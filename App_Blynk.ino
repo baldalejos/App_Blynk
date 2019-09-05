@@ -1,11 +1,12 @@
-// Please be sure to select the right ESP32 module
- //in the Tools -> Board menu!
+// Descargar en movil la App Blynk, registrate en cero coma y consigue tu Aut Token
+// Por favor eseguraros de elegir el modulo esp32 correcto
+ //Fabrica con los creditos gratuitos que te dan (o compra) un dashboard para tu proyecto
 
-  //Change WiFi ssid, pass, and Blynk auth token to run :)
- // Feel free to apply it to any other example. It's simple!
+  //Pon el nombre de tu wifi y la contraseña en este codigo
+ // 
 // *************************************************************/
 
-/* Comment this out to disable prints and save space */
+
 #define BLYNK_PRINT Serial
 
 
@@ -13,8 +14,6 @@
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 
-// You should get Auth Token in the Blynk App.
-// Go to the Project Settings (nut icon).
 char auth[] = "aquimetemoseltokenquenosden";
 
 // Your WiFi credentials.
